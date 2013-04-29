@@ -1,0 +1,25 @@
+2013-04-29 11:35:08,859 [DEBUG] DaoManager created dao for class class com.simple.task.Task with reflection
+2013-04-29 11:35:08,859 [INFO] TableUtils creating table 'tasks'
+2013-04-29 11:35:08,952 [DEBUG] JdbcConnectionSource opened connection to jdbc:sqlite:simpletasks.db got #18379432
+2013-04-29 11:35:08,968 [INFO] TableUtils executed create table statement changed 0 rows: CREATE TABLE IF NOT EXISTS `tasks` (`id` INTEGER PRIMARY KEY AUTOINCREMENT , `title` VARCHAR NOT NULL , `priority` INTEGER ) 
+2013-04-29 11:35:08,968 [DEBUG] JdbcConnectionSource closed connection #18379432
+2013-04-29 11:35:10,640 [DEBUG] StatementBuilder built statement SELECT * FROM `tasks` 
+2013-04-29 11:35:10,640 [DEBUG] JdbcConnectionSource opened connection to jdbc:sqlite:simpletasks.db got #2296804
+2013-04-29 11:35:10,640 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `tasks` ' with 0 args
+2013-04-29 11:35:10,640 [DEBUG] SelectIterator starting iterator @25324229 for 'SELECT * FROM `tasks` '
+2013-04-29 11:35:10,640 [DEBUG] SelectIterator closed iterator @25324229 after 1 rows
+2013-04-29 11:35:10,640 [DEBUG] StatementExecutor query of 'SELECT * FROM `tasks` ' returned 1 results
+2013-04-29 11:35:52,833 [DEBUG] BaseMappedStatement insert data with statement 'INSERT INTO `tasks` (`title` ,`priority` ) VALUES (?,?)' and 2 args, changed 1 rows
+2013-04-29 11:35:52,833 [DEBUG] BaseMappedStatement assigned id '2' from keyholder to 'id' in Task object
+2013-04-29 11:36:06,665 [DEBUG] BaseMappedStatement insert data with statement 'INSERT INTO `tasks` (`title` ,`priority` ) VALUES (?,?)' and 2 args, changed 1 rows
+2013-04-29 11:36:06,665 [DEBUG] BaseMappedStatement assigned id '3' from keyholder to 'id' in Task object
+2013-04-29 11:36:08,916 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `tasks` ' with 0 args
+2013-04-29 11:36:08,916 [DEBUG] SelectIterator starting iterator @4934480 for 'SELECT * FROM `tasks` '
+2013-04-29 11:36:08,916 [DEBUG] SelectIterator closed iterator @4934480 after 3 rows
+2013-04-29 11:36:08,916 [DEBUG] StatementExecutor query of 'SELECT * FROM `tasks` ' returned 3 results
+2013-04-29 11:36:35,513 [DEBUG] BaseMappedStatement delete data with statement 'DELETE FROM `tasks` WHERE `id` = ?' and 1 args, changed 1 rows
+2013-04-29 11:36:35,513 [DEBUG] BaseMappedStatement prepared statement 'SELECT * FROM `tasks` ' with 0 args
+2013-04-29 11:36:35,513 [DEBUG] SelectIterator starting iterator @5060581 for 'SELECT * FROM `tasks` '
+2013-04-29 11:36:35,513 [DEBUG] SelectIterator closed iterator @5060581 after 2 rows
+2013-04-29 11:36:35,513 [DEBUG] StatementExecutor query of 'SELECT * FROM `tasks` ' returned 2 results
+2013-04-29 11:36:47,639 [DEBUG] JdbcConnectionSource closed connection #2296804
